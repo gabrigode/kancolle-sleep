@@ -3,9 +3,10 @@ import os
 from os import environ
 import time
 import random
+import json
 
 #Variables used in array
-os.chdir ('images')
+
 count = 1
 message = []
 
@@ -24,22 +25,30 @@ user = api.me()
 print (user.name)
 
 while True:
-    search = api.search(q='@KancolleSleep')
-    for tweet in search:
+    print ("------------------------------------------------------------")
+    print (os.getcwd())
+    for tweet in api.search(q='@KancolleSleep'):
         print (f'UserName: {tweet.user.screen_name}')
         name = tweet.user.screen_name
-        if (tweet.id) in message:
+        with open('data.json', 'r') as read_file:
+            datafile = read_file.read()
+        if str((tweet.id)) in datafile:
             print ("Tweet already answered!")
         else:
             print ("Sending reply...")
             message.insert (count+1, tweet.id)
+            with open('data.json', 'a') as write_file:
+                json.dump(message, write_file)
             print (f'Tweet: {tweet.text}')
             media_ids = []
+            os.chdir ('images')
             image1 = random.choice(os.listdir('.'))
+            print (image1)
             file = api.media_upload(image1)
             media_ids.append(file.media_id)
             print (image1)
             text = (f'@{name}')
             api.update_status(status=text, media_ids=media_ids, in_reply_to_status_id=tweet.id)
+            os.chdir ('..')
            
-    time.sleep(15)
+    time.sleep(10)
