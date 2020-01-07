@@ -32,7 +32,6 @@ All images used are the property of their respective artists.
 
 If you have any questions, something went wrong or just want to talk, feel free contact me at [**Twitter**](https://twitter.com/gabrigodes).
 
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
+## Support
 
-[![Beerpay](https://beerpay.io/gabrigode/kancolle-sleep/badge.svg?style=beer-square)](https://beerpay.io/gabrigode/kancolle-sleep)  [![Beerpay](https://beerpay.io/gabrigode/kancolle-sleep/make-wish.svg?style=flat-square)](https://beerpay.io/gabrigode/kancolle-sleep?focus=wish)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J2MTN6)
