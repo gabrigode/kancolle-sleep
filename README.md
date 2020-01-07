@@ -31,3 +31,8 @@ All images used are the property of their respective artists.
 ## Contact
 
 If you have any questions, something went wrong or just want to talk, feel free contact me at [**Twitter**](https://twitter.com/gabrigodes).
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/gabrigode/kancolle-sleep/badge.svg?style=beer-square)](https://beerpay.io/gabrigode/kancolle-sleep)  [![Beerpay](https://beerpay.io/gabrigode/kancolle-sleep/make-wish.svg?style=flat-square)](https://beerpay.io/gabrigode/kancolle-sleep?focus=wish)
